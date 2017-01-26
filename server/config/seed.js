@@ -12,32 +12,23 @@ Thing.sync()
   .then(() => Thing.destroy({ where: {} }))
   .then(() => {
     Thing.bulkCreate([{
-      name: 'Development Tools',
-      info: 'Integration with popular tools such as Webpack, Gulp, Babel, TypeScript, Karma, '
-            + 'Mocha, ESLint, Node Inspector, Livereload, Protractor, Pug, '
-            + 'Stylus, Sass, and Less.'
+      name: 'Hungry Henry',
+      info: 'Likes to eat'
     }, {
-      name: 'Server and Client integration',
-      info: 'Built with a powerful and fun stack: MongoDB, Express, '
-            + 'AngularJS, and Node.'
+      name: 'Two Timing Tim',
+      info: 'Will never pay you back'
     }, {
-      name: 'Smart Build System',
-      info: 'Build system ignores `spec` files, allowing you to keep '
-            + 'tests alongside code. Automatic injection of scripts and '
-            + 'styles into your index.html'
+      name: 'Cheap Chuck',
+      info: 'Just dont mess with his dollar menu'
     }, {
-      name: 'Modular Structure',
-      info: 'Best practice client and server structures allow for more '
-            + 'code reusability and maximum scalability'
+      name: 'Starvin Marvin',
+      info: 'The one the only'
     }, {
-      name: 'Optimized Build',
-      info: 'Build process packs up your templates as a single JavaScript '
-            + 'payload, minifies your scripts/css/images, and rewrites asset '
-            + 'names for caching.'
+      name: 'Larry the Lush',
+      info: 'Its noon, that means Larry is drunk'
     }, {
-      name: 'Deployment Ready',
-      info: 'Easily deploy your app to Heroku or Openshift with the heroku '
-            + 'and openshift subgenerators'
+      name: 'Bob',
+      info: 'Sits and stares'
     }]);
   });
 
